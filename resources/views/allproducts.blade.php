@@ -18,7 +18,7 @@
         <div class="mainmenu pull-left">
           <ul class="nav navbar-nav collapse navbar-collapse">
             <li><a href="index.html" class="active">Home</a></li>
-            <li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+            <li class="dropdown"><a href="#">GreenGo Shop<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
                                     <li><a href="shop.html">Productos</a></li>
 

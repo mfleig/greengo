@@ -23,10 +23,10 @@ class AdminProductsController extends Controller
 
     //display create product form
     public function createProductForm(){
-      $categorias = Categoria::all();
+        $categorias = Categoria::all();
         return view("admin.createProductForm", compact('categorias'));
 
-        
+
     }
 
 
