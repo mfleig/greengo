@@ -175,11 +175,13 @@
           <div class="product-image-wrapper" a href=" ">
             <div class="single-products">
                 <div class="productinfo text-center">
-                  <img src="{{Storage::disk('local')->url('product_images/'.$product->imagen)}}" alt="" width="200px" height="200px"/>
-                  <h2>{{ $product->precio}}</h2>
+              <img src="{{Storage::disk('local')->url('product_images/'.$product->imagen)}}" alt="" width="200px" height="200px"/>
+              <h2>{{ $product->precio}}</h2>
                   <p>{{ $product->nombre }}</p>
                   <a href="{{ route('AddToCartProduct', ['id'=>$product->id]) }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Añadir al carrito</a>
                 </div>
+
+
 
             </div>
 
